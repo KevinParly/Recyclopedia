@@ -1,0 +1,19 @@
+{% extends "AstuceBundle::layout.html.twig" %}
+
+{% block title %}Accueil{% endblock %}
+{% block body %}
+  <h2>{{ astuce1.nomAstuce }}</h2>
+    <img src="{{ astuce1.imgAstuce }}">
+    <p>{{ astuce1.sousDescription }}</p>
+    <a href="/detailsastuce/{{astuce1.id}}"><button>Voir les informations liées à l'astuce</button></a>
+
+  <h2>{{ astuce2.nomAstuce }}</h2>
+    <img src="{{ astuce2.imgAstuce }}">
+    <p>{{ astuce2.sousDescription }}</p>
+    <a href="/detailsastuce/{{astuce2.id}}"><button>Voir les informations liées à l'astuce</button></a>
+
+    <h2>{{ astuce3.nomAstuce }}</h2>
+      <img src="{{ astuce3.imgAstuce }}">
+      <p>{{ astuce3.sousDescription }}</p>
+      <a href="/detailsastuce/{{astuce3.id}}"><button>Voir les informations liées à l'astuce</button></a>
+{% endblock %}

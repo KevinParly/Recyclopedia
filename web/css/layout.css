@@ -1,0 +1,19 @@
+  #navPrincipale ul{
+    list-style: none;
+  }
+
+  #navPrincipale ul li{
+    display: inline;
+    padding : 2%;
+  }
+
+  #navPrincipale ul li{
+  }
+
+  #lienMenu{
+    text-decoration: none;
+  }
+
+  #navPrincipale ul li:hover{
+    color: blue;
+  }
